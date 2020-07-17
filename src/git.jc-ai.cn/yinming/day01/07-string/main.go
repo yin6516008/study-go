@@ -1,6 +1,7 @@
 package main
 
 import (
+	string_type "07-string/string-type"
 	"fmt"
 	"strings"
 )
@@ -65,4 +66,6 @@ func main() {
 	h1 := "红" // string
 	h2 := '红' // rune(int32)
 	fmt.Printf("h1: %T, h2: %T", h1, h2)
+
+	string_type.TraversalString()
 }
